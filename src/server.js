@@ -8,5 +8,6 @@ app.listen(process.env.PORT || 3333);
 
 app.use(require('./routes/index'));
 app.use(require('./routes/state'));
+app.use(require('./routes/quarentineCenter'));
 
 module.exports = app ;

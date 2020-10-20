@@ -4,7 +4,7 @@ const state = mongoose.Schema({
     description: String,
     case:{
         type : mongoose.Types.ObjectId,
-        ref: 'state'
+        ref: 'case'
     },
     latitude: String,
     longitude: String,
