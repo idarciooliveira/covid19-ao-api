@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cases = mongoose.Schema({
     total: Number,
     recoverd: Number,
-    death: Number,
+    death: Number, 
     actives: Number,
     news:Number,
     Data: {
