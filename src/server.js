@@ -10,4 +10,5 @@ app.use(require('./routes/index'));
 app.use(require('./routes/state'));
 app.use(require('./routes/quarentineCenter'));
 
-module.exports = app ;
+module.exports = app 
+;
