@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section-PageLanding{
+    z-index: 10022;
+    background: linear-gradient(to bottom, rgba(29, 165, 132, .05), rgba(29, 165, 132, .05), 
+    rgba(29, 165, 132, 0.02));
+    flex: 1;
+    padding: 20px 25px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container-PageLanding{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.section-PageLanding .grid-{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-PageLanding .grid- .left-covi{
+    display: flex;
+    flex-direction: column;
+}
+.section-PageLanding .grid- .left-covi .lb-covid{
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+}
+.section-PageLanding .grid- .left-covi .lb-title-geral{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+.section-PageLanding .grid- .left-covi .grey{
+    position: relative;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    letter-spacing: -0.23px;
+    color: #8498AE;
+}
+.section-PageLanding .grid- .right-covi a{
+    height: 44px;
+    padding: 20px 20px;
+    font-size: 18px;
+    display: flex;
+    transition: transform 1s ease;
+    align-items: center;
+    color: #1DA584;
+    box-shadow:  0 8px 10px 0 rgba(31, 70, 88, 0.04);
+    background: rgba(255, 255, 255, 1)
+}
+.section-PageLanding .grid- .right-covi a:hover{
+    transform: translateY(-5px);
+}
+.section-PageLanding .grid- .right-covi a span{
+    margin-left: 5px;
+}
+.section-PageLanding .container-cards article:first-child{
+    background: #1DA584;
+}
+.section-PageLanding .container-cards article{
+    max-width: calc(300px - 20px);
+    min-width: calc(300px - 20px);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 20px 16px;
+    height: 190px;
+    min-height: 210px;
+    position: relative;
+    border-radius: 15px;
+    margin: 10px 0;
+    /* width: calc(25% - 22px);
+    max-width: calc(25% - 22px);
+    min-width: calc(25% - 22px); */
+    cursor: pointer;
+}
+.section-PageLanding .container-cards article:hover{
+    opacity: .8;
+}
+.section-PageLanding .container-cards .lb-total-geral{
+    margin: 10px 0;
+}
+.section-PageLanding .container-cards .lb-total-geral label{
+    width: 100%;
+    padding: 0;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -1.29px;
+}
+.section-PageLanding .container-cards .lb-total-geral .tot{
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -.65px;
+    color: rgba(255,255,255,.6);
+}
+
+.section-PageLanding .container-cards .lb-title-geral{
+    width: 100%;
+    font-size: 21px;
+    letter-spacing: -.41px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1DA584;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.section-PageLanding .container-cards .lb-title-geral div{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 14px;
+    border: none;
+    border-width: 0;
+    border-radius: 50%;
+    background: rgba(29, 165, 132, 0.1);
+    transition:transform 1s ease;
+}
+.section-PageLanding .container-cards .lb-title-geral div:hover{
+    opacity: .9;
+    transform: rotate(-90deg)
+}
+.section-PageLanding .container-cards article:nth-child(3) .lb-title-geral span{
+    color: #9fb5c8;
+}
+.section-PageLanding .container-cards .container-tp-geral{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-PageLanding .container-cards .tp-geral {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    min-width: 116px;
+    margin: 12px 8px 0 0;
+    font-size: 27px;
+    line-height: 20px;
+    font-weight: 900;
+    letter-spacing: -.7px;
+    color: #232A2F;
+}
+.section-PageLanding .container-cards .tp-geral span{
+    font-size: 12px;
+    line-height: 6px;
+    font-weight: 400;
+    letter-spacing: -.31px;
+    color: #8498AE;
+    margin: 10px 0;
+}
+
+.section-PageLanding .container-cards article::after{
+    top: 14px;
+    left: -3px;
+    position: absolute;
+    content: "";
+    display: block;
+    height: 36px;
+    width: 6px;
+    border-radius: 4px;
+    background: transparent;
+    box-shadow:  0 8px 10px 0 rgba(31, 70, 88, 0.04);
+}
+.section-PageLanding .container-cards article:nth-child(2):after{
+    background: #1DA584;
+}
+.section-PageLanding .container-cards article:nth-child(3):after{
+    background: #9a36bb;
+}
+
+
+@media screen and (max-width:850px){
+    
+    .section-PageLanding .grid-{
+        padding: 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-PageLanding .grid- aside{
+        padding: 0 0;
+        margin: 15px 0;
+    }
+    .section-PageLanding .container-cards article{
+        max-width: calc(400px - 20px);
+        min-width: calc(400px - 20px);
+    }
+    
+}
+
+@media screen and (min-width:476px) {
+    .section-PageLanding .container-cards{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .section-PageLanding .container-cards article{
+        max-width: calc(280px - 10px);
+        min-width: calc(280px - 10px);
+    }
+    .section-PageLanding .grid-{
+        max-width: 100%;
+        padding: 0 0;
+        margin: 34px 0;
+    }
+}
+@media screen and (min-width:576px) {
+    .section-PageLanding .container-cards{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .section-PageLanding .container-cards article{
+        max-width: calc(280px - 10px);
+        min-width: calc(280px - 10px);
+    }
+  
+}
+@media screen and (min-width:756px){
+    .section-PageLanding .container-cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .section-PageLanding .container-cards article{
+        min-width: calc(400px - 10px);
+    }
+    .section-PageLanding .grid-{
+        max-width: 100%;
+    }
+}
