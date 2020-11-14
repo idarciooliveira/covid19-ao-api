@@ -1,11 +1,15 @@
 import React from 'react'
-import {BrowserRouter ,Route} from 'react-router-dom'
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import PageLandig from '../Screen/PageLanding'
+import Provi from '../Screen/ProviPage'
 
 function Routes(){
     return(
         <BrowserRouter>
-        <Route component={PageLandig} exact />
+        <Switch>
+        <Route path="/" exact component={PageLandig} />
+        <Route path="/Provi" component={Provi} />
+        </Switch>
         </BrowserRouter>
     )
 }

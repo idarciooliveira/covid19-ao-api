@@ -106,7 +106,7 @@ function PageLanding() {
             <div className="container-provi">
               <div className="provi">
                 <div className='provi-a'>
-                  <Link to=''>Luanda <GrFormNextLink size={30} color="yellow"/> </Link>
+                  <Link to='Provi'>Luanda <GrFormNextLink size={30} color="yellow"/> </Link>
                 </div>
                 <div className='provi-b'>
                   <main>
