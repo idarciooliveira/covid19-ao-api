@@ -7,8 +7,8 @@ import '../styles/components/menu.css'
 function Menu(){
     useEffect(()=>{document.title=`coronaVirus Angola`},[])
   return (
-      <ul className='ul-menu'>
-          <li className='container-menu'>
+      <ul className='ul-menu' id="menu">
+          <li className='container-menu '>
                 <div className='texto'>
                     <h2>CoronaVírus</h2>
                     <div className='bandeiras'>
