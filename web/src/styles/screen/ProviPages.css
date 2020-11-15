@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.ProviPage-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(29, 165, 132, .05), rgba(29, 165, 132, .05), 
+    rgba(29, 165, 132, 0.02));
+}
+.ProviPage-container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 10px 40px;
+    box-shadow: 0px 2px 4px rgba(29, 165, 132, .05);
+}
+.ProviPage-container header img{
+    width: 140px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+.ProviPage-container section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.ProviPage-container section .paragra{
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+.ProviPage-container section .paragra h1{
+    text-transform:capitalize;
+    margin: 0px 0px 15px;
+    font-size: 30px;
+    color: #000;
+}
+.ProviPage-container section .paragra p{
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+}
+.ProviPage-container section article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 0px;
+}
+.ProviPage-container section article div{
+    margin:0 15px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.ProviPage-container section article div h3{
+    font-size: 22px;
+    margin: 5px 0 20px;
+    font-weight: 600;
+}
+.ProviPage-container section article div small{
+    color: orange;
+    border: 2px solid orange;
+    font-size: 30px;
+    margin: 5px 0;
+    padding: 10px 10px;
+}
+.ProviPage-container section article div:nth-child(2) small{
+    color: indigo;
+    border: 2px solid indigo;
+}
+.ProviPage-container section article div:nth-child(3) small{
+    color: crimson;
+    border: 2px solid crimson;
+}
+.ProviPage-container section article div:nth-child(4) small{
+    color: green;
+    border: 2px solid green;
+}
+
+.text_facul {
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 1em;
+}
+.himZKo {
+    width: 2.5em;
+    height: 5px;
+    background-color: #1DA584;
+    border-radius: 5px;
+    display: flex;
+}
+.hCuLgs {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 400;
+    margin: 15px;
+    color: #333;
+}
+.kYKazV_ul{
+    margin: auto;
+    margin: 0px;
+    padding: 10px 20px;
+}
+.ProviPage-container section{
+    margin: 15px;
+}
+.ProviPage-container .banner nav{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.ProviPage-container .banner nav .tex{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+.ProviPage-container .banner nav .tex p{
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+    color: #000;
+}
+.ProviPage-container .banner nav .grid-container{
+    margin: 0px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+.ProviPage-container .banner nav .grid-container img{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    height: 250px;
+    border-radius: 10px;
+    transition: .5s ease-in;
+}
+.ProviPage-container .banner nav .grid-container img:hover{
+    filter: grayscale(.4);
+}
+.ProviPage-container .banner nav .grid-container .grid-5{
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+}
+
+@media screen and (max-width:850px){
+    .ProviPage-container section article{
+        margin: 0px 5px;
+    }
+    .ProviPage-container section .paragra{
+        margin: 0px 5px 10px;
+    }
+    .ProviPage-container section article div{
+        margin: 0px 5px;
+    }
+    .ProviPage-container section article div h3{
+        margin: 0px 0px 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .ProviPage-container section article div small{
+        color: orange;
+        border: 2px solid orange;
+    }
+    .ProviPage-container .banner nav{
+        flex-direction: column;
+    }
+    .ProviPage-container .banner nav .grid-container img{
+        width: 150px;
+        object-fit: cover;
+        object-position: center;
+        height: 150px;
+        border-radius: 10px;
+        transition: .5s ease-in;
+    }
+}
