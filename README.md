@@ -1,3 +1,5 @@
+![Imagem do projecto](screen.png)
+
 # Covid19 ao api
 
 Este é um projeto opensource que visa de uma forma actualizado informar os casos da convid19 em Angola, o usuário pode fazer pesquisa por provincias e visualizar os dados da referida provincia.
